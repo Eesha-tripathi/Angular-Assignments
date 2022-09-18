@@ -1,0 +1,14 @@
+
+<!-- <input type="text" [(ngModel)]="searchInput"> -->
+<!-- <p>{{ searchInput }}</p> -->
+
+<!-- <button (click)="this.isShowing=!this.isShowing">
+    <ng-container *ngIf="!isShowing">Show Products</ng-container>
+    <ng-container *ngIf="isShowing">Hide Products</ng-container>
+</button> -->
+<!-- <ul *ngIf="isShowing"> -->
+<ul class="flex flex-wrap justify-center">
+    <ng-container *ngFor="let laptop of laptops">
+        <app-items [laptop]="laptop" class="w-1/2 p-5 text-center"></app-items>
+    </ng-container>
+</ul>

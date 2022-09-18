@@ -1,0 +1,22 @@
+.empty{
+    justify-content: center;
+    /* background-color: purple; */
+    color: purple;
+    padding: 20px;
+    text-shadow: 4px 3px #f1adf1;
+}
+.heading{
+    font-size: 500%;
+    text-align: center;
+    color: purple;
+    text-shadow: 4px 6px rgb(228, 15, 214);
+}
+.cartdisplay{
+    display: flex;
+}
+.name{
+    padding: 1%;
+    background-color: #6bcef7;
+    color: purple;
+    font-size: 200%;
+}

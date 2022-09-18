@@ -1,0 +1,18 @@
+<!-- <div class="d-flex flex-column min-vh-100">
+<app-header></app-header>
+<app-home></app-home>
+<app-footer class="mt-auto"></app-footer>
+<app-cart></app-cart>
+</div> -->
+<nav class="flex justify-between p-4 bg-purple-900 text-white">
+    <div>
+        <a class="title" routerLink="/">Laptop BuzzHour</a>
+    </div>
+    <div style="margin: 10px;">
+        <a routerLink="../cart" class="mx-4 cart">Cart</a>
+    </div>
+</nav>
+<div class="p-4">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+</div>

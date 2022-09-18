@@ -1,0 +1,13 @@
+/* ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    text-overflow: initial;
+    width: 30%;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 1%;
+} */

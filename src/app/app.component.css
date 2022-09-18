@@ -1,0 +1,27 @@
+.title{
+    font-size: 35px;
+}
+.title:hover
+{
+    color: white;
+    font-size: 38px;
+}
+.cart{
+    font-size: 25px;
+    justify-content: center;
+    border: solid lightgrey;
+    background-color: white;
+    color:purple;
+    border-radius: 10%;
+    padding: 0.25rem 1rem;
+}
+.cart:hover
+{
+    font-size: 26px;
+    justify-content: center;
+    border: solid lightgrey;
+    background-color: #4A148C;
+    color:white;
+    border-radius: 10%;
+    padding: 0.25rem 1rem;
+}
